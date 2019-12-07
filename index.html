@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- character set -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- author -->
+    <meta name="author" content="Chris Brody">
+    <!-- description -->
+    <meta name="description" content="purchase page">
+
+    <!-- title -->
+    <title>Confirm Purchase</title>
+
+    <!-- reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      
+      <h1>Confirm Purchase</h1>
+
+      <form>
+        
+        <!-- Owner -->
+        <div class="form-wrap" id="owner">
+          <label for="owner">Owner</label>
+          <input name="owner" type="text" required>
+        </div>
+        
+        <!-- CVV -->
+        <div class="form-wrap" id="cvv">
+          <label for="cvv">CVV</label>
+          <input name="cvv" type="number" required>
+        </div>
+        
+        <!-- Card Number -->
+        <div class="form-wrap">
+          <label for="card-number">Card Number</label>
+          <input name="card-number" type="number" required>
+        </div>
+        
+        <!-- Expiration Date & Exiration Year -->
+        <div class="form-wrap" id="ex-date">
+          <label for="">Expiration Date</label>
+          <select name="expiration-month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+
+          <select name="expiration-year">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+          </select>
+          
+          <!-- cards we accept -->
+          <img src="img/cc.png" alt="we accept visa, master card, amex">
+        </div>
+        
+        <!-- confirmation button -->
+        <button class="btn">Confirm</button>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>

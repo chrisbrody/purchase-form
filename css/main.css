@@ -1,0 +1,75 @@
+body {
+	background-color: #EEE;
+	font-family: Arial;
+}
+label {
+	color: #4D4D55;
+	display: inline-block;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.wrapper {
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 20px 40px;
+	width: 50%;
+}
+
+.wrapper h1 {
+	color: #4D4D55;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+
+
+/*input wrappers*/
+.form-wrap {
+	padding: 5px 0;
+}
+.form-wrap input {
+	border: 1px solid rgba(77,77,85, 0.5);
+	border-radius: 5px;
+	height: 35px;
+	width: 100%;
+}
+
+/*individual form wrappers*/
+#owner {
+	width: 65%;
+	float: left;
+}
+
+#cvv {
+	width: 29%;
+	float: right;
+}
+#ex-date label {
+	display: block;
+	margin-bottom: 10px;
+}
+#ex-date img {
+	float: right;
+	width: 200px;
+
+	position: relative;
+    top: -10px;
+}
+
+.btn {
+	background-color: #60C4A6;
+	border: none;
+	border-radius: 5px;
+	clear: both;
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	height: 50px;
+	width: 100%;
+}
+
+
+
